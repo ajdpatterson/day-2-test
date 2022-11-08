@@ -14,6 +14,6 @@ is_it_raining = input("Is it raining? ")
 if is_it_raining == "yes":
     print("You should take the car!")
 elif distance < 5:
-    print("You should walk!")
+    print(f"You're only going {distance} miles. You should walk!")
 else:
-    print("You should take the bus!")
+    print(f"You're travelling {distance} miles. You should take the bus!")
